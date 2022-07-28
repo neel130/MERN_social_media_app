@@ -1,0 +1,40 @@
+.svg-icon{
+    margin: 21px 30px;
+}
+
+.svg-icon span{
+    margin: 0 20px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.showmore-btn button{
+    border: none;
+    font-size: 14px;
+    padding: 6px 43px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin: 5px 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.shortcut img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.leftbar-lowwer{
+    margin: 10px 28px;
+}
+
+.shortcut{
+    margin: 16px 0;
+}
+
+.shortcut span{
+    font-weight: 500;
+    margin:0 15px ;
+}

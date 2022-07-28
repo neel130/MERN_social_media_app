@@ -1,0 +1,19 @@
+
+.sponsored-box{
+    display: flex;
+    margin: 15px 10px;
+}
+
+
+.sponsored-box img{
+    width: 140px;
+    border-radius: 7px;
+}
+
+.spsrd-description{
+    margin: auto;
+}
+
+.spsrd-description p{
+    margin: 0;
+}

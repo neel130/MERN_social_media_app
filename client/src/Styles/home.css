@@ -1,0 +1,49 @@
+
+.home-container{
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+.leftbar{
+  flex: 2.5;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.leftbar:hover{
+  overflow-y: scroll;
+}
+.leftbar:hover::-webkit-scrollbar-thumb {
+ 
+  background: rgba(64, 100, 121, 0.37); 
+  border-radius: 7px;
+}
+::-webkit-scrollbar {
+  width: 9px;
+ 
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  display: none;
+}
+
+
+
+.feed{
+  flex: 6;
+  overflow-y: scroll;
+}
+.feed:hover::-webkit-scrollbar-thumb{
+ display: none;
+  
+}
+
+.rightbar{
+      flex: 2.5;
+      overflow-y: scroll;
+}
+
+.rightbar:hover::-webkit-scrollbar-thumb {
+ 
+  background: rgba(64, 100, 121, 0.37); 
+  border-radius: 7px;
+}

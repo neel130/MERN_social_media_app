@@ -1,0 +1,58 @@
+
+.createpost-container{
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 30px;
+    padding: 16px;
+    width: 42vw;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 1px 6px 2px #8080803b;
+}
+
+
+.cp-upper{
+   
+}
+
+
+
+.cp-upper img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.cp-upper input{
+    width: 500px;
+    height: 42px;
+    border: none;
+    margin-left: 13px;
+    padding-left: 19px;
+    background: #f0f2f5;
+    border-radius: 20px;
+    outline: none;
+}
+
+.cp-upper input:hover{
+    background: #e9eaec;
+    cursor: pointer;
+}
+
+.cp-lower{
+    display: flex;
+}
+
+.cp-icon{
+    margin: 10px 13px ;
+}
+
+.cp-lower button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 6px;
+    margin-left: 60px;
+}
